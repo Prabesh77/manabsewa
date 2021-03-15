@@ -1,0 +1,48 @@
+.social-sec {
+  min-height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fb .shape {
+  width: 200px;
+}
+
+.payment .shape {
+  width: 250px;
+}
+
+.facebook-page {
+  height: 400px;
+  width: 100%;
+}
+
+.social-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .social-sec {
+    flex-direction: column;
+  }
+  .social-section {
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+  }
+
+  .facebook-page {
+    height: 400px;
+    width: 100%;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

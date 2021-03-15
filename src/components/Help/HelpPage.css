@@ -1,0 +1,25 @@
+.help-contents {
+  width: 90%;
+  margin: -2rem auto 2rem auto;
+  text-align: center;
+}
+
+.help-contents h2 {
+  margin: 2rem 0;
+  font-size: 2rem;
+  color: var(--main-blue);
+}
+
+.help-contents img {
+  width: 100%;
+}
+
+.help .shape {
+  width: 190px;
+}
+
+@media (max-width: 700px) {
+  .help-contents h2 {
+    font-size: 1.5rem;
+  }
+}

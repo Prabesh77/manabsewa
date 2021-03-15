@@ -1,0 +1,33 @@
+.aim-contents {
+  width: 90%;
+  min-height: 400px;
+  margin: -4rem auto 0 auto;
+}
+
+.aim-contents .shape {
+  width: 150px;
+}
+
+.aim-contents .aim {
+  margin-top: -2rem;
+}
+
+.manage-p p {
+  margin: 1rem 0;
+  line-height: 1.9;
+  letter-spacing: 0.6px;
+}
+
+.req-contents .shape {
+  width: 190px;
+}
+
+.req-contents {
+  width: 90%;
+  min-height: 400px;
+  margin: 0 auto 3rem auto;
+}
+
+.req {
+  margin-top: -2rem;
+}

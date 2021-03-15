@@ -1,0 +1,14 @@
+.family .shape {
+  width: 190px;
+}
+
+.family .members {
+  width: 100%;
+  /* background: orange; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-gap: 2rem;
+  padding: 2rem 0 4rem 0rem;
+  /* text-align: center; */
+}

@@ -1,0 +1,21 @@
+.carousel .show {
+  height: 600px;
+}
+
+@media (max-width: 768px) {
+  .carousel .show {
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel .show {
+    height: 300px;
+  }
+}
+
+@media (max-width: 360px) {
+  .carousel .show {
+    height: 200px;
+  }
+}

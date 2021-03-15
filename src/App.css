@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "Nirmala UI";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Nirmala.ttf"); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Segoe UI.ttf"); /* IE9 Compat Modes */
+}
+@font-face {
+  font-family: "Segoe UI Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Segoe UI Bold.ttf"); /* IE9 Compat Modes */
+}
+
+:root {
+  --main-blue: #2a2e57;
+  --light-white: #e6e2e2;
+  --green: #07a009;
+  --text: #333;
+  /* --nepali: Nirmal UI;
+  --english: Segoe UI;
+  --english-bold: Segoe UI Bold; */
+}
+
+body {
+  font-family: "Segoe UI";
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: var(--text);
+}
+
+.container {
+  width: 100%;
+}
+
+img {
+  object-fit: cover;
+}
+
+@media (min-width: 900px) {
+  .container {
+    width: 1000px;
+    /* background: var(--light-white); */
+    margin: 0 auto;
+  }
+}
+
+.button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid var(--main-blue);
+  margin: 20px 20px 20px 20px;
+  color: var(--main-blue);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.button p {
+  color: var(--main-blue);
+  letter-spacing: 1px;
+}
+
+#button-5 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-5 p {
+  position: relative;
+  transition: all 0.45s ease-Out;
+}
+
+#translate {
+  transform: rotate(50deg);
+  width: 100%;
+  height: 250%;
+  left: -200px;
+  top: -30px;
+  background: var(--main-blue);
+  position: absolute;
+  transition: all 0.3s ease-Out;
+}
+
+#button-5:hover #translate {
+  left: 0;
+}
+
+#button-5:hover p {
+  color: var(--light-white);
+}
